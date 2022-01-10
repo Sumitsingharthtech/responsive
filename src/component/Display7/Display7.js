@@ -1,5 +1,5 @@
 import React from 'react'
-// import './Display7.css';
+import './Display7.css';
 
 
 function Display7() {
@@ -18,15 +18,15 @@ function Display7() {
         </div>   <hr />
 
 
-        <form className="form-1">
-          <label className='id-label'> Customer ID  </label>
-          <input type="phone" className="input-1" placeholder="456543124" required />
+        <form className="form1">
+        <div>   <label className='id-label'> Customer ID  </label><br/>
+          <input type="phone" className="input_1" placeholder="456543124" required /> </div>
 
-          <label className='name-label'> Full Name  </label>
-          <input type="text" className="input-2" placeholder="Mohammad Waseem " required />
+          <div> <label className='name-label'> Full Name  </label>
+          <input type="text" className="input-2" placeholder="Mohammad Waseem " required /> </div>
 
 
-          <div className='gender-div'>
+         <div> <div className='gender-div'>
           <label className='gender-label'>Gender</label> <br />
     <div className="checkboxes">
     <label><input id="male" type="radio" name="gender" value="male" className="hidden" required /><span> UNSPECIFIED </span></label>
@@ -43,20 +43,20 @@ function Display7() {
           </div>
 
 
-          </div>
+          </div></div>
  
 
           <div className='customer-div'>
-              <div>
+              <div  className='nation' >
               <label className='nationality-1'> Nationality  </label> <br />
-          <select className='select-2'>
+         <div className='nation_div' > <select className='select-2'>
               <option value="Arab"> Arab </option>
               <option value="indian"> Indian </option>
-          </select>
+          </select></div>
               </div>
 
               <div>
-              <label className='vip-customer'> Vip Customer  </label> <br />
+             <div className='vip' > <label className='vip-customer'> Vip Customer  </label> <br /></div>
           <select className='select-3'>
               <option value="yes"> Yes </option>
               <option value="no">  No </option>

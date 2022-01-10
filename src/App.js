@@ -23,8 +23,8 @@ function App() {
         <Route exact path="/display3" component={Display4} />
          <Route exact path="/display4" component={Display5} />
          <Route exect path ="/display5"component={Display6}/>
-        {/* 
-        <Route exect path ="/display6"component={Display7}/> */}
+        
+        <Route exect path ="/display6"component={Display7}/>
       </Switch>
       <Footer/>
     </Router>

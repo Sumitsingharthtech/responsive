@@ -9,7 +9,7 @@ const Header = () => {
 <div className="icon">
   {/* <button className="btn-1">  <BsArrowLeftShort /> Back </button> */}
   
-  <h4 > Logo <span>home</span>centre </h4>
+  <h4 > <span>home</span>centre </h4>
 </div>
         </>
     )

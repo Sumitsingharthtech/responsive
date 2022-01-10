@@ -8,7 +8,10 @@
     width: 100%;
     height: 30px;
 }
+.form1{
+text-align: center;
 
+}
 .btn-1 {
     margin-top: 9px;
     margin-left: 40px;
@@ -43,10 +46,18 @@
     font-weight: 400;
 }
 
-.form-1{
+.form_1{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+   
+}
+.input_1{
+
+    width: 42%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 0px 28%;
+
 }
 
 .hidden {
@@ -62,6 +73,7 @@
     border-left: 0;
     padding: 5px 10px;
   }
+
   label:first-child input[type="radio"] + span {border-left: 1px solid black;}
   input[type="radio"]:checked + span {background: silver;}
   
@@ -70,20 +82,22 @@
   }
   
 .id-label{
-    margin-left: 28%;
+    text-align: center;
     font-weight: 200;
+    padding-right: 23rem
 }  
-.name-label{
-    margin-left: 28%;
+.name-label {
+    padding-right: 23rem;
     margin-top: 20px;
     font-weight: 200;
 }
 .gender-div{
-    margin-left: 28%;
+    padding-left: 28%;
 }
 .gender-label{
-    margin: 20px 0%;
+    padding: 20px 0%;
     font-weight: 200;
+    padding-right: 44rem;
 }
 .language-label{
     margin-left: 35px;
@@ -94,7 +108,7 @@
     width: 34%;
     border-radius: 10px;
     margin-left: 35px;
-    padding: 7px 10px;
+    padding: 0px 10px;
 }
 
 /* .input-1{
@@ -113,30 +127,44 @@
 .language-1{
    margin: -44px 23% 0px 0px;
 }
-.customer-div{
+/* .customer-div{
     display: flex;
    
-}
-.nationality-1{
+} */
+.nationality-1 {
     margin-top: 20px;
-    margin-left: 84%;
+    text-align: start;
+    padding-right: 34%;
     font-weight: 200;
+
 }
 .vip-customer{
-    margin-left: 212px;
+    padding-left: 1rem;
     margin-top: 20px;
     font-weight: 200;
 }
-.select-2{
-    width: 59%;
-    margin-left: 363px;
-    padding: 5px 10px;
+.select-2 {
+    width: 254%;
     border-radius: 10px;
+    padding: 2px 1rem;
 }
-.select-3{
-    width: 82%;
-    margin-left: 68%;
-    padding: 5px 10px;
+.nation{
+    text-align: center;
+    margin-left: -16rem;
+}
+.vip{
+margin-right: 0rem;
+
+}
+.customer-div {
+    display: flex;
+}
+.nation_div{
+    padding-right: 20rem;
+}
+.select-3 {
+    width: 175%;
+    padding: 2px 25px;
     border-radius: 10px;
 }
 .btn-2{
@@ -160,6 +188,8 @@
     margin-top: 13%;
 }
 
+
+
 @media(max-width: 1024px){
     .logo{
         margin-left: 25%;
@@ -167,9 +197,9 @@
     .personal-details{
         margin-left: 29%;
     }
-    .input-1{
+    /* .input-1{
         width: 30%;
-    }
+    } */
     .input-2{
         width: 51%;
     }
@@ -201,13 +231,16 @@
         display: flex;
         flex-direction: column;
     }
-    .nationality-1{
-        margin-left: 38%;
+    .nation_div {
+        padding-right: 1rem;
     }
-    .select-2{
-        margin-left: 301px;
-        width: 45%;
-        padding: 8px 10px;
+    /* .nationality-1{
+        margin-left: 38%;
+    } */
+    .select-2 {
+        width: 96%;
+        border-radius: 10px;
+        padding: 1px 47px;
     }
     .vip-customer{
         margin-left: 305px;
@@ -243,10 +276,8 @@
     .Address-h1{
         margin-left: 25%;
     }
-    .id-label{
-        margin-left: 25px;
-    }
-    .input-1{
+    
+    .input_1{
         margin-left: 26px;
         width: 68%;
     }
