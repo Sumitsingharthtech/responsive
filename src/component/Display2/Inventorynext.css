@@ -1,0 +1,44 @@
+.inventorynext{
+    width: 400px;
+    background: #364055;
+    position:absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+}
+.heading{
+    padding-left: 10px;
+    color: #fff;
+}
+.head{
+    float: left;
+    width: 70%;
+}
+.head-a{
+    float: left;
+    width: 20%;
+}
+.check {
+    float: left;
+    width: 10%;
+    margin: 12px 5px;
+}
+.buddy{
+    float: left;
+    width: 60%;
+}
+.qty{
+    float: left;
+    width: 20%;
+}
+.confirm{
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.confirm button{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: none;
+
+}

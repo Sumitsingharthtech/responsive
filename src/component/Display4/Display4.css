@@ -1,0 +1,130 @@
+.container{
+    /* width: 1170px; */
+    margin: 0 auto;
+  
+  }
+  .main_div {
+    width: 50%;
+    margin: 0 auto;
+}
+  .text_div h2{
+  text-align: center;
+  }
+  .form_div {
+    width: 100%;
+    margin: 0 auto;
+}
+  
+  
+  .buttonClass {
+    font-size:13px;
+    font-family:Arial;
+    width:145px;
+    height:32px;
+    border-width:0px;
+    color:rgba(24, 24, 24, 1);
+    cursor:pointer;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    background:rgb(248, 244, 244);
+  }
+  .date_div{
+  border-width: 1px 0px 2px 0px;
+  border-style: solid;
+  padding: 1px 0 25px 0;
+  
+  }
+  
+                
+  
+  .dot_div{
+    text-align:center;
+    margin-right: 3rem;
+    
+  }
+  .dot {
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(25, 128, 212);
+    border-radius: 50%;
+    display: inline-block;
+    padding-top: 6px;
+    margin: 0px 9px 0 5px;
+}
+  .dot:hover{
+    background-color: rgb(25, 128, 212);
+  }
+  .slot_div {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 4rem;
+}
+  .slot_div div {
+    border: 1px solid rgb(210, 213, 218);
+    margin: 0px 5px 0 5px ;
+    border-radius: 7px;
+  width: 5rem;
+  text-align: center;
+  color: rgb(181, 184, 189);
+  height: 5rem;
+   
+  }
+  
+  .slot_div div:hover{
+   border-color: rgb(112, 167, 240);
+   color: rgb(112, 167, 240);
+  
+  } 
+  
+  .Arrow{
+  margin-top: 7px;
+  font-size: 2rem;
+  
+  }
+  
+  .input_div  {
+    background-color: white;
+    border-radius: 9px;
+    border: 2px solid #c9c2c2;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
+    width: 26.5rem;
+    font-style: italic;
+    font-size: 13px;
+    padding: 13px 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  .input_div:active {
+      position:relative;
+      top:1px;
+  }
+  .radio_div{
+  margin: 15px 0 5px 0;
+  
+  }
+  .input_div1 {
+    margin-left: 7%;
+    padding: 0 0 20px 0;
+}
+  .input_div1 button{
+    background-color: black;
+    border-radius:20px;
+    border: 1px solid #c9c2c2;
+    display:inline-block;
+    cursor:pointer;
+    color: white;
+    font-family:Arial;
+    font-size:13px;
+    padding:13px 10rem;
+    text-decoration:none;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  
+  }

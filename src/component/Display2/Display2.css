@@ -1,0 +1,240 @@
+.inventory-box {
+    width: 50%;
+    margin: 0 auto;
+}
+.inventory-box h3{
+    text-align: center;
+}
+.caslla {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+    margin: 0;
+}
+.box {
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+}
+.radio {
+    width: 7%;
+    float: left;
+    margin: 21px 0;
+}
+.radio input {
+    width: 30px;
+    height: 30px;
+}
+
+.were {
+    float: left;
+    width: 20%;
+}
+.uae {
+    float: left;
+    width: 60%;
+    font-size: 14px;
+    padding: 11px 19px;
+    text-align: left;
+}
+.qty {
+    float: left;
+    width: 15%;
+    font-size: 14px;
+    padding: 9px 0;
+}
+.bold{
+    font: 600;
+    font-size: 18px;
+}
+.inventory-box button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 2px 6%;
+}
+.errow {
+    float: right;
+    margin: 2px 0 0 20px;
+}
+.grandeur {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 30px;
+    margin: 0;
+}
+.next{
+    width: 50%;
+    margin: 0 auto;
+}
+.next button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 40%;
+    border-radius: 20px;
+    margin: 13% 6%;
+}.inventory-box {
+    width: 50%;
+    margin: 0 auto;
+}
+.inventory-box h1{
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+}
+.radio {
+    width: 7%;
+    float: left;
+    margin: 21px 0;
+}
+.radio input {
+    width: 30px;
+    height: 30px;
+}
+
+.were {
+    float: left;
+    width: 20%;
+}
+.uae {
+    float: left;
+    width: 60%;
+    font-size: 14px;
+    padding: 11px 19px;
+    text-align: left;
+}
+.qty {
+    float: left;
+    width: 15%;
+    font-size: 14px;
+    padding: 9px 0;
+}
+.bold{
+    font: 600;
+    font-size: 18px;
+}
+.inventory-box button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 2px 6%;
+}
+.errow {
+    float: right;
+    margin: 2px 0 0 20px;
+}
+.grandeur {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 30px;
+    margin: 0;
+}
+.next{
+    width: 50%;
+    margin: 0 auto;
+}
+.next button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 40%;
+    border-radius: 20px;
+    margin: 13% 6%;
+}.inventory-box {
+    width: 50%;
+    margin: 0 auto;
+}
+.inventory-box h1{
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+}
+.radio {
+    width: 7%;
+    float: left;
+    margin: 21px 0;
+}
+.radio input {
+    width: 30px;
+    height: 30px;
+}
+.warehouse h4 {
+    font-size: 17px;
+    padding: 15px 1px;
+}
+.warehouse {
+    float: left;
+    width: 90%;
+    display: flex;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px  2px #e8e8e8;
+}
+.were {
+    float: left;
+    width: 20%;
+}
+.uae {
+    float: left;
+    width: 60%;
+    font-size: 14px;
+    padding: 11px 19px;
+    text-align: left;
+}
+.qty {
+    float: left;
+    width: 15%;
+    font-size: 14px;
+    padding: 9px 0;
+}
+.bold{
+    font: 600;
+    font-size: 18px;
+}
+.inventory-box button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 2px 6%;
+}
+.errow {
+    float: right;
+    margin: 2px 0 0 20px;
+}
+.grandeur {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.next{
+    width: 50%;
+    margin: 0 auto;
+}
+.next button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 40%;
+    border-radius: 20px;
+    margin: 13% 6%;
+}

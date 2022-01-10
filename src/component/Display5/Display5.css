@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    float: left;
+    width: 100%;
+
+}
+
+
+.black{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+
+
+.btn-1 {
+    margin-top: 9px;
+    margin-left: 40px;
+    padding: 5px;
+    width: 98px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Address-h1{
+    margin-left: 47%;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+.personal-details{
+    margin-left: 36%;
+    margin-top: 17px;
+}
+
+.th-1{
+    font-weight: 400;
+}
+.th-2{
+    padding-left: 40px;
+    font-weight: 400;
+}
+.th-3{
+    padding-left: 40px;
+    font-weight: 400;
+}
+
+
+.form-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    /* padding-left: 0rem; */
+    text-align: center;
+}
+.form-1 label {
+    padding-left: 28rem;
+    text-align: start;
+}
+label{
+    font-weight: 200;
+}
+.input-1{
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 40%;
+    padding: 5px 10px;
+}
+
+.select-1{
+    width: 25%;
+    margin-left: 40%;
+    padding: 3px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.btn-2{
+   background-color: black;
+   border-radius: 20px;
+   border: 1px solid #c9c2c2;
+
+   color: white;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+
+   width: 25%;
+   padding: 6px 4rem;
+}
+.input_btn2{
+    padding-top: 6rem;
+    padding-left: 4rem;
+}
+.foot-1 {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    margin-top: 10%;
+}
+
+
