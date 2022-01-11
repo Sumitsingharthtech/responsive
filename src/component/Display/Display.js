@@ -1,19 +1,19 @@
 import React from 'react'
 import './Display.css';
-import {BsFillBellFill} from "react-icons/bs";
-import {BiArrowBack} from "react-icons/bi";
+// import {BsFillBellFill} from "react-icons/bs";
+// import {BiArrowBack} from "react-icons/bi";
 const Display = () => {
     return (
         <>
           <div className='navbar'>
-              <div className='container'>
+              {/* <div className='container'>
                   <button className='back-button'>
                      <BiArrowBack/> Back
                   </button>
                   <button className='assistance-button'>
                      <BsFillBellFill/> Assistance
                   </button>
-              </div>
+              </div> */}
              </div>
              <div className='about'>
                  <div className='container'>
