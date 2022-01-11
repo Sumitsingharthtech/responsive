@@ -38,7 +38,7 @@ const Display1 = () => {
                          </table>
                          <table>
                          <input type="checkbox" id="box" name="box" value="box" />
-                             <td>Caslla 180X210 Bed Set W/Wdrb<p>143512589</p><button className='remove'>Remove Item</button></td>
+                             <td>  <b>Caslla 180X210 Bed Set W/Wdrb<p>143512589</p></b> <button className='remove'>Remove Item</button></td>
                              <td>AED 3000</td>
                              <td>20</td>
                              <td>1</td>
@@ -46,7 +46,7 @@ const Display1 = () => {
                          </table>
                          <table>
                          <input type="checkbox" id="box" name="box" value="box" />
-                         <td>Caslla 180X210 Bed Set W/Wdrb<p>143512589</p><button className='remove'>Remove Item</button></td>
+                         <td> <b>Caslla 180X210 Bed Set W/Wdrb<p>143512589</p></b> <button className='remove'>Remove Item</button></td>
                              <td>AED 3000</td>
                              <td>20</td>
                              <td>1</td>

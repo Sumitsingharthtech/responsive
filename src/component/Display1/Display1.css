@@ -79,16 +79,16 @@
     padding: 0 20px 0 3rem;
 }
 .box-1 td:nth-child(3) {
-    padding: 0 20px 0 5px;
+    padding: 3px 17px 0 0px;
 }
 .box-1 td:nth-child(4) {
-    padding: 0 20px 0 3rem;
+    padding: 0px 20px 0 4rem;
 }
 .box-1 td:nth-child(5) {
     padding: 0 20px 0 6rem;
 }
 .box-1 td:nth-child(6) {
-    padding: 0 20px 0 4rem;
+    padding: 0 0px 0 5px;
 }
 .remove{
     color:#ff0827;

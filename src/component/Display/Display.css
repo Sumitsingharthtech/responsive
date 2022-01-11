@@ -4,6 +4,7 @@
     background: #000;
     height: 30px;
 }
+
 .navbar {
     float: left;
     width: 100%;
@@ -19,13 +20,17 @@
     border: none;
     padding: 5px 15px;
 }
-.assistance-button{
+.assistance-button1{
     float: right;
     background: linear-gradient(to  left,#ed2225, #f47532);
     color: #fff;
     border-radius: 5px;
     border: none;
     padding: 5px 15px;
+}
+.assistance-button1_div{
+    padding-left: 55rem;
+
 }
 .about {
     float: left;
@@ -62,7 +67,7 @@ table {
     padding: 0px 1rem 0 0;
 }
 .box-1 td:nth-child(2) {
-    padding: 0 0 0 0px;
+    padding: 0px 57px 4px 11px;
 }
 .box-1 td:nth-child(3) {
     padding: 0 0 0 5.7rem;
@@ -80,6 +85,10 @@ table {
     padding: 5px 15px;
     background: #ffebea;
     border-radius: 5px;
+}
+.button_remove{
+padding-bottom: 4px;
+
 }
 .promotional {
     color: #205eae;
@@ -108,11 +117,17 @@ table {
     font-size: 12px;
 }
 .currency-calculator {
-    background: linear-gradient(to  bottom, #fdfdfd,#eeeeee);
+    background: linear-gradient(to bottom, #fdfdfd,#eeeeee);
     border: none;
-    padding: 5px 27px;
-    margin: 0 3rem;
+    width: 88%;
+    font-size: 14px;
+    /* height: 3rem; */
+    padding: 11px 23px;
+    margin: 0 1rem;
     box-shadow: 2px 2px 2px 4px #f2f2f2;
+}
+.currency-calculator-div{
+    padding-bottom: 6rem;
 }
 .subtotal{
     font-weight: 800;
@@ -127,12 +142,31 @@ table {
 .aed span{
     font-size: 32px;
 }
+.dollar{
+    font-size: 2.1rem;
+    padding-left: 7rem;
+
+}
+.card_div{
+    padding-bottom: 0rem;
+}
+.order_div{
+    background-color: rgb(235, 202, 114);
+    color: black;
+  
+    font-size: 16px;
+    border-radius: 16px;
+}
+.order_div_text{
+    font-size: 11px;
+}
 .card-a {
-    padding: 2rem 3rem;
+    padding: 23px 9px;
+    width: 85%;
     margin: 0 22px;
     border-radius: 10px;
     border: none;
-    background: linear-gradient(to  bottom, #8abf43,#489844);
+    background: linear-gradient(to bottom, #8abf43,#489844);
     color: #fff;
     font-size: 24px;
 }
