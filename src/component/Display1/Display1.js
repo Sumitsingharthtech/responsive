@@ -2,6 +2,7 @@ import React from 'react'
 import './Display1.css'
 
 import {BsFillCaretRightFill} from 'react-icons/bs'
+import { Link } from "react-router-dom";
 
 
 const Display1 = () => {
@@ -54,7 +55,13 @@ const Display1 = () => {
                          </ul>
                      </div></div>
                  </div>
+                 
              </div>
+             <Link to="/2" >
+             <div className='btn_ahead' > <button>  Next</button>
+             
+              </div>
+              </Link>
         </>
         
     )

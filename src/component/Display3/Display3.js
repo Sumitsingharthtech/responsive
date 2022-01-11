@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Display3.css";
+import { Link } from "react-router-dom";
 
 const Display3 = () => {
   return (
@@ -49,11 +50,11 @@ const Display3 = () => {
 </div>
 <div className="input_end" >
              
-              <input
+              <Link to="/4" ><input
                 className="input_next"
                 type="submit"
                 value="NEXT"
-              ></input>
+              ></input></Link>
             </div>
     </div>
 

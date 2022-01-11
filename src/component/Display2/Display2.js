@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {BsFillCaretRightFill} from 'react-icons/bs'
 import Inventorynext from './Inventorynext'
 import './Display2.css';
+import { Link } from "react-router-dom";
 
 const Display2 = () => {
     const[showSign, setshowSign]=useState(false);
@@ -53,9 +54,12 @@ const Display2 = () => {
                     </div>
                     <button>Check in Buddy Stores <BsFillCaretRightFill className='errow'/></button>
                     <div className='next'>
+                    <Link to="/3" >
                     <button>Next</button>
+                    </Link>
                     </div>
                     </div>
+                
             </div>
         </>
     )

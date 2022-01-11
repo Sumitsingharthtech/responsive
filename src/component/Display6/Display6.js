@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Display6.css";
+import { Link } from "react-router-dom";
 
 function Display6() {
     return (
@@ -117,9 +118,9 @@ function Display6() {
                         </select>
                     </div>
                     </div>
-
+<Link to="/7">
                     <button className='last-btn'> ADD  ADDRESS </button>
-
+                    </Link>
                     </div>
                    
                 </form>

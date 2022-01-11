@@ -1,6 +1,7 @@
 import React from "react";
 import "./Display7.css";
 
+
 function Display7() {
   return (
     <div className="main">
@@ -122,6 +123,7 @@ function Display7() {
           </div>
 
           <button className="btn-2"> Next </button>
+        
         </form>
       </div>
       <footer className="foot-1"></footer>

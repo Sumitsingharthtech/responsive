@@ -143,3 +143,15 @@ table {
 .saved{
     font-size: 14px;
 }
+.btn_ahead{
+text-align: center;
+padding-bottom: 10px;
+
+}
+.btn_ahead button {
+    border: none;
+    width: 11%;
+    border-radius: 10px;
+   
+    box-shadow: white;
+}

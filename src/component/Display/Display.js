@@ -1,7 +1,6 @@
 import React from 'react'
 import './Display.css';
-// import {BsFillBellFill} from "react-icons/bs";
-// import {BiArrowBack} from "react-icons/bi";
+import { Link } from "react-router-dom";
 const Display = () => {
     return (
         <>
@@ -58,7 +57,15 @@ const Display = () => {
                          <p>Your order could earn you 100 Shukrans</p>
                      </div>
                  </div>
+
+             
              </div>
+             <Link to="/1" >
+             <div className='btn_ahead' > <button>  Next</button>
+             
+              </div>
+              </Link>
+       
         </>
     )
 }

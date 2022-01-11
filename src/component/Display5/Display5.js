@@ -1,5 +1,6 @@
 import React from "react";
 import './Display5.css';
+import { Link } from "react-router-dom";
 
 
 function Display5() {
@@ -60,7 +61,11 @@ function Display5() {
             required
           />
 
-        <div className="input_btn2" >   <button className="btn-2"> Next </button></div>
+        <div className="input_btn2" > 
+        <Link to="/6" >
+          <button className="btn-2"> Next </button>
+          </Link>
+          </div>
         </form>
       </div>
       <footer className="foot-1"></footer>

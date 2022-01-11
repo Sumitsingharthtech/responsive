@@ -36,6 +36,7 @@
 .about {
     float: left;
     width: 100%;
+    padding-top: 18px;
 
 }
 .box-1{
@@ -114,3 +115,15 @@ img {
 .errow{
     float: right;
 }
+.btn_ahead{
+    text-align: center;
+    padding-bottom: 10px;
+    
+    }
+    .btn_ahead button {
+        border: none;
+        width: 11%;
+        border-radius: 10px;
+       
+        box-shadow: white;
+    }

@@ -1,6 +1,7 @@
 import React from "react";
 import { RiArrowRightSFill } from 'react-icons/ri';
 import { IoMdArrowDropleft } from 'react-icons/io';
+import { Link } from "react-router-dom";
 import "./Display4.css";
 const Display4 = () => {
   return (
@@ -80,7 +81,9 @@ const Display4 = () => {
               </div>
             </div>
             <div className="input_div1">
+              <Link to ="/5" >
              <button>SUBMIT</button>
+             </Link>
             </div>
           </div>
         </form>
