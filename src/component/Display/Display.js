@@ -11,7 +11,7 @@ const Display = () => {
     
 
 
-  {/* <h4 > <span>home</span>centre </h4> */}
+  <h4 > <span>home</span>centre </h4>
 </div>
           <div className='navbar'>
 
