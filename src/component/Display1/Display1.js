@@ -5,6 +5,9 @@ import {BsFillCaretRightFill} from 'react-icons/bs'
 import {BsArrowLeftShort} from 'react-icons/bs'
 import {BiCut} from 'react-icons/bi'
 import {AiOutlineFileZip} from 'react-icons/ai'
+import {BsFillPeopleFill} from 'react-icons/bs'
+import {AiOutlineDisconnect} from 'react-icons/ai'
+import {AiOutlinePercentage} from 'react-icons/ai'
 import { Link } from "react-router-dom";
 
 
@@ -24,9 +27,11 @@ const Display1 = () => {
              <div className="black"> </div>
 
 <div className="icon">
+<div className="btn_back_div" >
     <Link to="/" >
-  <button className="btn">  <BsArrowLeftShort /> Back </button>
+ <button className="btn_back">  <BsArrowLeftShort /> Back </button>
   </Link>
+  </div>
   <h4 > <span>home</span>centre </h4>
 </div>
                  <div className='container'>
@@ -40,19 +45,19 @@ const Display1 = () => {
                          </table>
                          <table>
                          <input type="checkbox" id="box" name="box" value="box" />
-                             <td>  <b>Caslla 180X210 Bed Set W/Wdrb<p>143512589</p></b> <button className='remove'>Remove Item</button></td>
+                            <tr> <td>  <b>Caslla 180X210 Bed Set W/Wdrb<p>143512589</p></b> <div className='button_remove' ><button className='remove'>Remove Item</button></div></td>
                              <td>AED 3000</td>
                              <td>20</td>
                              <td>1</td>
-                             <td>3000.00</td>
+                             <td>3000.00</td></tr>
                          </table>
                          <table>
                          <input type="checkbox" id="box" name="box" value="box" />
-                         <td> <b>Caslla 180X210 Bed Set W/Wdrb<p>143512589</p></b> <button className='remove'>Remove Item</button></td>
+                         <tr><td> <b>Caslla 180X210 Bed Set W/Wdrb<p>143512589</p></b> <div className='button_remove' ><button className='remove'>Remove Item</button></div></td>
                              <td>AED 3000</td>
                              <td>20</td>
                              <td>1</td>
-                             <td>3000.00</td>
+                             <td>3000.00</td></tr>
                          </table>
                          <p className='promotional'>*Promotional items will not have further discounts</p>
                      </div>
@@ -61,9 +66,9 @@ const Display1 = () => {
                          <ul>
                              <li> <BiCut/> Round Off  <BsFillCaretRightFill className='errow' />  </li>
                              <li><AiOutlineFileZip/>   Normal Discount <BsFillCaretRightFill className='errow'/>  </li>
-                             <li>Employee Discount<BsFillCaretRightFill className='errow'/></li>
-                             <li>Damage Discount<BsFillCaretRightFill className='errow'/></li>
-                             <li>Auto Discount<BsFillCaretRightFill className='errow'/></li>
+                             <li><BsFillPeopleFill/>  Employee Discount<BsFillCaretRightFill className='errow'/></li>
+                             <li><AiOutlineDisconnect/>   Damage Discount<BsFillCaretRightFill className='errow'/></li>
+                             <li><AiOutlinePercentage/>   Auto Discount<BsFillCaretRightFill className='errow'/></li>
                          </ul>
                      </div></div>
                  </div>

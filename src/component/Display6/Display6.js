@@ -7,9 +7,9 @@ function Display6() {
       <>
          <div className="black"> </div>
 <div className="icon">
-    <Link to="/5" >
-  <button className="btn">  <BsArrowLeftShort /> Back </button>
-  </Link>
+  <div className="btn_back_div" >  <Link to="/5" >
+  <button className="btn_back">  <BsArrowLeftShort /> Back </button>
+  </Link></div>
   <h4 > <span>home</span>centre </h4>
 </div>
         <div className='main'>

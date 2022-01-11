@@ -17,7 +17,10 @@
     color: yellowgreen;
     display: contents;
 }
+.btn_back_div{
+    padding-top: 2rem;
 
+}
 .inventory-box {
     width: 50%;
     margin: 0 auto;

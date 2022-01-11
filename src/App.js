@@ -20,11 +20,11 @@ function App() {
         <Route exact path="/1" component={Display1} />
         <Route exact path="/2" component={Display2} />
         <Route exact path="/3" component={Display3} />
-        <Route exact path="/4" component={Display4} />
+        <Route exact path="/7" component={Display4} />
         <Route exact path="/5" component={Display5} />
         <Route exect path="/6" component={Display6} />
 
-        <Route exect path="/7" component={Display7} />
+        <Route exect path="/4" component={Display7} />
       </Switch>
       <Footer />
     </Router>

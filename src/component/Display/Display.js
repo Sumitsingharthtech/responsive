@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { BsFillBellFill } from 'react-icons/bs';
 import { BsMicrosoft } from 'react-icons/bs';
 import { BiDollarCircle } from 'react-icons/bi';
+import { AiOutlineDollarCircle } from 'react-icons/ai';
 
 const Display = () => {
     return (
@@ -35,23 +36,25 @@ const Display = () => {
                          <table>
                              <th>Item</th>
                              <th>Price</th>
-                             <th>Points</th>
+                             <th><AiOutlineDollarCircle className='table_point' />  Points</th>
                              <th>Quantity</th>
                              <th>Total</th>
                          </table>
                          <table>
-                             <td><b>Caslla 180X210 Bed Set W/Wdrb</b>  <p><b>143512589</b></p> <div className='button_remove' ><button className='remove'>Remove Item</button></div>  </td>
+                             <tr>
+                             <td className='table_td' ><b>Caslla 180X210 Bed Set W/Wdrb</b>  <p><b>143512589</b></p> <div className='button_remove' ><button className='remove'>Remove Item</button></div>  </td>
                              <td>AED 3000</td>
                              <td>20</td>
                              <td>1</td>
                              <td>3000.00</td>
+                             </tr>
                          </table>
                          <table>
-                         <td><b>Caslla 180X210 Bed Set W/Wdrb</b><p><b>143512589</b>  </p> <div className='button_remove' ><button className='remove'>Remove Item</button></div>  </td>
+                        <tr> <td className='table_td' ><b>Caslla 180X210 Bed Set W/Wdrb</b><p><b>143512589</b>  </p> <div className='button_remove' ><button className='remove'>Remove Item</button></div>  </td>
                              <td>AED 3000</td>
                              <td>20</td>
                              <td>1</td>
-                             <td>1500.00</td>
+                             <td>1500.00</td></tr>
                          </table>
                          <p className='promotional'>*Promotional items will not have further discounts</p>
                      </div>

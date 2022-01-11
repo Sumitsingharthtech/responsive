@@ -41,6 +41,13 @@ table {
     border-width: 0 0 1px 0;
     padding: 10px 0;
 }
+.table_td{
+    font-size: 16px;
+}
+.table_point{
+    background-color: #ffd653;
+    border-radius: 9px;
+}
 .box-1{
     float: left;
     width: 69%;
@@ -64,7 +71,7 @@ table {
     padding: 0 0 0 6rem;
 }
 .box-1 td:nth-child(1) {
-    padding: 0px 1rem 0 0;
+    padding: 0px 0rem 0 0;
 }
 .box-1 td:nth-child(2) {
     padding: 0px 57px 4px 11px;
