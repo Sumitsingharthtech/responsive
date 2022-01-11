@@ -75,7 +75,7 @@
   padding: 0px 10px;
 }
 .div-22 #select-3 {
-  padding-left: .6rem;
+  padding-left: 0.6rem;
 }
 .div-222 {
   padding-left: 5rem;
@@ -153,8 +153,7 @@ button.last-btn {
   margin-top: 10px;
 }
 
-@media  (max-width: 320px) 
-{
+@media (max-width: 320px) {
   .black {
     background-color: black;
     width: 100%;
@@ -164,79 +163,101 @@ button.last-btn {
     display: flex;
     margin-left: 6%;
     margin-top: 16px;
+  }
+  .main-div-1 {
+    display: flex;
+    margin-left: -63px;
+  }
+  .main-div-2 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: -54px;
+  }
+  #select-1 {
+    width: 104%;
+    padding: 0px 14px;
+    border-radius: 8px;
+  }
+  .div-222 {
+    padding-left: 1px;
+    margin-left: -6rem;
+    padding-top: 23px;
+  }
+  .label-near {
+    padding-left: 0px;
+    padding-top: 16px;
+    margin-left: -6rem;
+  }
+  .nearest-1 {
+    margin-left: -102px;
+    width: 275%;
+    padding: 5px 4px;
+    border-radius: 10px;
+  }
+  .state-1 {
+    margin-left: -75px;
+    padding-top: 19px;
+  }
+  #select-6 {
+    width: 192%;
+    border-radius: 10px;
+    margin-left: -43px;
+    padding: 3px 18px;
+  }
+  .country-1 {
+    margin-left: -1.6rem;
+    padding-top: 3px;
+  }
+  #select-8 {
+    margin-left: -31px;
+    width: 138%;
+    padding: 0px 6px;
+    border-radius: 10px;
+  }
+  #select-4 {
+    width: 80%;
+    padding: 0px 10px;
+    border-radius: 10px;
+  }
+  button.last-btn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 3rem;
+    width: 84%;
+    border-radius: 19px;
+    margin-left: -19%;
+  }
+  #select-2 {
+    width: 92%;
+    border-radius: 10px;
+    padding: 0px 10px;
+  }
+  #select-5 {
+    border-radius: 10px;
+    width: 118%;
+    padding: 0px 10px;
+  }
 }
-.main-div-1 {
-  display: flex;
-  margin-left: -63px;
-}
-.main-div-2 {
-  display: flex;
-  margin-top: 20px;
-  margin-left: -54px;
-}
-#select-1 {
-  width: 104%;
-  padding: 0px 14px;
-  border-radius: 8px;
-}
-.div-222 {
-  padding-left: 1px;
-  margin-left: -6rem;
-  padding-top: 23px;
-}
-.label-near {
-  padding-left: 0px;
-  padding-top: 16px;
-  margin-left: -6rem;
-}
-.nearest-1 {
-  margin-left: -102px;
-  width: 275%;
-  padding: 5px 4px;
-  border-radius: 10px;
-}
-.state-1 {
-  margin-left: -75px;
-  padding-top: 19px;
-}
-#select-6 {
-  width: 192%;
-  border-radius: 10px;
-  margin-left: -43px;
-  padding: 3px 18px;
-}
-.country-1 {
-  margin-left: -1.6rem;
-  padding-top: 3px;
-}
-#select-8 {
-  margin-left: -31px;
-  width: 138%;
-  padding: 0px 6px;
-  border-radius: 10px;
-}
-#select-4 {
-  width: 80%;
-  padding: 0px 10px;
-  border-radius: 10px;
-}
-button.last-btn {
-  background-color: black;
-  color: white;
-  padding: 5px;
-  margin-top: 3rem;
-  width: 84%;
-  border-radius: 19px;
-  margin-left: -19%;
-}
-#select-2 {
-  width: 92%;
-  border-radius: 10px;
-  padding: 0px 10px;
-}
-#select-5 {
-  border-radius: 10px;
-  width: 118%;
-  padding: 0px 10px;
-}
+@media (max-width: 375px) {
+  .personal-1 {
+    display: flex;
+    margin-left: 9%;
+    margin-top: 16px;
+  }
+  .main-div-1 {
+    /* display: flex; */
+    margin-left: 0px;
+  }
+  .input-11 {
+    width: 101%;
+    padding: 5px 0px;
+    border-radius: 10px;
+  }
+  .form_1 {
+    margin-left: 0%;
+  }
+  .div-22 {
+    padding-left: 0rem;
+  }
 }
