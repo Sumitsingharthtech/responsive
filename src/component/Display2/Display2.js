@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {BsFillCaretRightFill} from 'react-icons/bs'
+import {BsArrowLeftShort} from 'react-icons/bs'
 import Inventorynext from './Inventorynext'
 import './Display2.css';
 import { Link } from "react-router-dom";
@@ -11,7 +12,16 @@ const Display2 = () => {
     }
     return (
         <>
+        <div className="black"> </div>
+
+<div className="icon">
+    <Link to="/" >
+  <button className="btn">  <BsArrowLeftShort /> Back </button>
+  </Link>
+  <h4 > <span>home</span>centre </h4>
+</div>
         <div className='container'>
+        
                 <div className='inventory-box'>
                     <h3>Inventory Details</h3>
                     <h6 className='caslla'>Caslla 180X210 Bed Set W/Wdrb</h6>

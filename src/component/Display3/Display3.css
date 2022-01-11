@@ -36,20 +36,16 @@
         /* margin: 0 auto; */
     }
     .input_next{
-        background-color: black;
-        border-radius:20px;
-        border: 1px solid #c9c2c2;
-        display:inline-block;
-        cursor:pointer;
-    color: white;
-        font-family:Arial;
-        font-size:13px;
-        padding:13px 10rem;
-        text-decoration:none;
-  
-    
-    
-    
+        background-color: #000;
+    border-radius: 20px;
+    border: 1px solid #c9c2c2;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 6px 6rem;
+    text-decoration: none;
     }
     
     select {

@@ -1,10 +1,18 @@
 import React from "react";
 import './Display5.css';
 import { Link } from "react-router-dom";
-
+import { BsArrowLeftShort } from 'react-icons/bs';
 
 function Display5() {
   return (
+   <>
+    <div className="black"> </div>
+<div className="icon">
+    <Link to="/4" >
+  <button className="btn">  <BsArrowLeftShort /> Back </button>
+  </Link>
+  <h4 > <span>home</span>centre </h4>
+</div>
     <div className="main">
       
       <hr />
@@ -69,7 +77,7 @@ function Display5() {
         </form>
       </div>
       <footer className="foot-1"></footer>
-    </div>
+    </div></>
   );
 }
 

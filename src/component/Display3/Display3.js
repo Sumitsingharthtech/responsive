@@ -1,10 +1,20 @@
 import React from "react";
-
+import {BsArrowLeftShort} from 'react-icons/bs'
 import "./Display3.css";
 import { Link } from "react-router-dom";
 
 const Display3 = () => {
   return (
+
+<>
+<div className="black"> </div>
+<div className="icon">
+    <Link to="/2" >
+  <button className="btn">  <BsArrowLeftShort /> Back </button>
+  </Link>
+  <h4 > <span>home</span>centre </h4>
+</div>
+    
     <div className="container">
       <div className="heading">
         {" "}
@@ -56,7 +66,7 @@ const Display3 = () => {
                 value="NEXT"
               ></input></Link>
             </div>
-    </div>
+    </div></>
 
    
   );

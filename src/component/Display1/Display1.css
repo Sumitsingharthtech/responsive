@@ -1,3 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.black{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+
+
+.icon{
+
+    text-align: center;
+    color: yellowgreen;
+    display: contents;
+}
+
 .top{
     float: left;
     width: 100%;

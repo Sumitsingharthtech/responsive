@@ -1,7 +1,7 @@
 import React from "react";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./component/Header/Header";
+// import Header from "./component/Header/Header";
 import Footer from "./component/Footer/Footer";
 import Display from "./component/Display/Display";
 import Display1 from "./component/Display1/Display1";
@@ -14,7 +14,7 @@ import Display7 from "./component/Display7/Display7";
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Switch>
         <Route exact path="/" component={Display} />
         <Route exact path="/1" component={Display1} />

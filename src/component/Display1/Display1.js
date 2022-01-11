@@ -2,7 +2,9 @@ import React from 'react'
 import './Display1.css'
 
 import {BsFillCaretRightFill} from 'react-icons/bs'
+import {BsArrowLeftShort} from 'react-icons/bs'
 import { Link } from "react-router-dom";
+
 
 
 const Display1 = () => {
@@ -17,6 +19,14 @@ const Display1 = () => {
               </div>
              </div> */}
              <div className='about'>
+             <div className="black"> </div>
+
+<div className="icon">
+    <Link to="/" >
+  <button className="btn">  <BsArrowLeftShort /> Back </button>
+  </Link>
+  <h4 > <span>home</span>centre </h4>
+</div>
                  <div className='container'>
                      <div className='box-1'>
                          <table>

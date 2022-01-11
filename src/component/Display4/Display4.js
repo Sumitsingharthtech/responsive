@@ -1,10 +1,19 @@
 import React from "react";
 import { RiArrowRightSFill } from 'react-icons/ri';
 import { IoMdArrowDropleft } from 'react-icons/io';
+import { BsArrowLeftShort } from 'react-icons/bs';
 import { Link } from "react-router-dom";
 import "./Display4.css";
 const Display4 = () => {
   return (
+   <>
+   <div className="black"> </div>
+<div className="icon">
+    <Link to="/3" >
+  <button className="btn">  <BsArrowLeftShort /> Back </button>
+  </Link>
+  <h4 > <span>home</span>centre </h4>
+</div>
     <div className="container">
       <div className="text_div">
         {" "}
@@ -27,16 +36,16 @@ const Display4 = () => {
             />
           </div>
           <div className="radio_div">
-            {" "}
-            <input type="radio" id="lname" name="lname" />{" "}
+            
+            <input type="radio" id="lname" name="lname" />
             <span>
-              {" "}
-              <button className="buttonClass"> Express Delivery</button>
+              
+              <button className="button_Class"> Express Delivery</button>
             </span>
           </div>
           <div>
            
-            <h5> Select Delivery Slot</h5>{" "}
+            <h5> Select Delivery Slot</h5>
           </div>
           <div>
            <div className="date_div">
@@ -88,7 +97,7 @@ const Display4 = () => {
           </div>
         </form>
       </div>
-    </div>
+    </div></>
   );
 };
 

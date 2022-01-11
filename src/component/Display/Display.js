@@ -5,6 +5,9 @@ const Display = () => {
     return (
         <>
           <div className='navbar'>
+
+
+              
               {/* <div className='container'>
                   <button className='back-button'>
                      <BiArrowBack/> Back

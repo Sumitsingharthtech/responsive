@@ -1,9 +1,17 @@
 import React from 'react'
 import "./Display6.css";
 import { Link } from "react-router-dom";
-
+import { BsArrowLeftShort } from 'react-icons/bs';
 function Display6() {
     return (
+      <>
+         <div className="black"> </div>
+<div className="icon">
+    <Link to="/5" >
+  <button className="btn">  <BsArrowLeftShort /> Back </button>
+  </Link>
+  <h4 > <span>home</span>centre </h4>
+</div>
         <div className='main'>
             
 
@@ -127,7 +135,7 @@ function Display6() {
             </div>
             <footer className='foot-1'>
             </footer>
-        </div>
+        </div></>
     )
 }
 export default Display6;

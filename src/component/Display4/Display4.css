@@ -12,11 +12,11 @@
   }
   .form_div {
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
   
   
-  .buttonClass {
+  .button_Class {
     font-size:13px;
     font-family:Arial;
     width:145px;
