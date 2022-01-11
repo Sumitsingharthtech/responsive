@@ -3,6 +3,8 @@ import './Display1.css'
 
 import {BsFillCaretRightFill} from 'react-icons/bs'
 import {BsArrowLeftShort} from 'react-icons/bs'
+import {BiCut} from 'react-icons/bi'
+import {AiOutlineFileZip} from 'react-icons/ai'
 import { Link } from "react-router-dom";
 
 
@@ -57,8 +59,8 @@ const Display1 = () => {
                      <div><div className='box-2'>
                          <h5>Select A Discount Type</h5>
                          <ul>
-                             <li>Round Off  <BsFillCaretRightFill className='errow' />  </li>
-                             <li>Normal Discount <BsFillCaretRightFill className='errow'/>  </li>
+                             <li> <BiCut/> Round Off  <BsFillCaretRightFill className='errow' />  </li>
+                             <li><AiOutlineFileZip/>   Normal Discount <BsFillCaretRightFill className='errow'/>  </li>
                              <li>Employee Discount<BsFillCaretRightFill className='errow'/></li>
                              <li>Damage Discount<BsFillCaretRightFill className='errow'/></li>
                              <li>Auto Discount<BsFillCaretRightFill className='errow'/></li>
