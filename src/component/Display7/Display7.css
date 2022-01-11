@@ -1,114 +1,119 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
-.black{
-    background-color: black;
-    width: 100%;
-    height: 30px;
+.black {
+  background-color: black;
+  width: 100%;
+  height: 30px;
 }
-.form1{
-text-align: center;
-
+.form1 {
+  text-align: center;
 }
 .btn-1 {
-    margin-top: 9px;
-    margin-left: 40px;
-    padding: 5px;
-    width: 98px;
-    background-color: black;
-    color: white;
-    border-radius: 12px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
+  margin-top: 9px;
+  margin-left: 40px;
+  padding: 5px;
+  width: 98px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.Address-h1{
-    margin-left: 43%;
-    font-weight: 400;
-    font-size: 22px;
-}
-
-.personal-details{
-    margin-left: 32%;
-    margin-top: 17px;
+.Address-h1 {
+  margin-left: 43%;
+  font-weight: 400;
+  font-size: 22px;
 }
 
-.th-1{
-    font-weight: 400;
-}
-.th-2{
-    padding-left: 40px;
-    font-weight: 400;
-}
-.th-3{
-    padding-left: 40px;
-    font-weight: 400;
+.personal-details {
+  margin-left: 32%;
+  margin-top: 17px;
 }
 
-.form_1{
-    display: flex;
-    flex-direction: column;
-   
+.th-1 {
+  font-weight: 400;
 }
-.input_1{
+.th-2 {
+  padding-left: 40px;
+  font-weight: 400;
+}
+.th-3 {
+  padding-left: 40px;
+  font-weight: 400;
+}
 
-    width: 42%;
-    padding: 5px 10px;
-    border-radius: 10px;
-    margin: 0px 28%;
-
+.form_1 {
+  display: flex;
+  flex-direction: column;
+}
+.input_1 {
+  width: 42%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0px 28%;
 }
 
 .hidden {
-    opacity: 0; 
-    position: absolute; 
-    pointer-events: none;
-  }
-  .checkboxes label {display: block; float: left;}
-  input[type="radio"] + span {
-    display: block;
-    border: 1px solid black;
-    border-radius: 10px;
-    border-left: 0;
-    padding: 5px 10px;
-  }
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.checkboxes label {
+  display: block;
+  float: left;
+}
+input[type="radio"] + span {
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px;
+  border-left: 0;
+  padding: 5px 10px;
+}
 
-  label:first-child input[type="radio"] + span {border-left: 1px solid black;}
-  input[type="radio"]:checked + span {background: silver;}
-  
-  .checkboxes{
-      margin: -21px 28% 0px 0px;
-  }
-  
-.id-label{
-    text-align: center;
-    font-weight: 200;
-    padding-right: 23rem
-}  
+label:first-child input[type="radio"] + span {
+  border-left: 1px solid black;
+}
+input[type="radio"]:checked + span {
+  background: silver;
+}
+
+.checkboxes {
+  margin: -21px 28% 0px 0px;
+}
+
+.id-label {
+  text-align: center;
+  font-weight: 200;
+  padding-right: 23rem;
+}
 .name-label {
-    padding-right: 23rem;
-    margin-top: 20px;
-    font-weight: 200;
+  padding-right: 23rem;
+  margin-top: 20px;
+  font-weight: 200;
 }
-.gender-div{
-    padding-left: 28%;
+.gender-div {
+  padding-left: 28%;
 }
-.gender-label{
-    padding: 20px 0%;
-    font-weight: 200;
-    padding-right: 44rem;
+.gender-label {
+  padding: 20px 0%;
+  font-weight: 200;
+  padding-right: 46rem;
 }
-.language-label{
-    margin-left: 35px;
-    font-weight: 200;
+.language-label {
+  padding-right: 6rem;
+  /* margin-left: 2px; */
+  font-weight: 200;
 }
-
-.select-1{
-    width: 34%;
-    border-radius: 10px;
-    margin-left: 35px;
-    padding: 0px 10px;
+.vip_div {
+  margin-left: -3.8rem;
+}
+.select-1 {
+  width: 34%;
+  border-radius: 10px;
+  margin-left: 35px;
 }
 
 /* .input-1{
@@ -118,189 +123,183 @@ text-align: center;
     padding: 5px 10px;
 } */
 
-.input-2{
-    width: 42%;
-    padding: 5px 10px;
-    border-radius: 10px;
-    margin: 0px 28%;
+.input-2 {
+  width: 42%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0px 28%;
 }
-.language-1{
-   margin: -44px 23% 0px 0px;
+.language-1 {
+  margin: -44px 23% 0px 0px;
 }
 /* .customer-div{
     display: flex;
    
 } */
 .nationality-1 {
-    margin-top: 20px;
-    text-align: start;
-    padding-right: 34%;
-    font-weight: 200;
-
+  margin-top: 20px;
+  text-align: start;
+  padding-right: 79%;
+  font-weight: 200;
 }
-.vip-customer{
-    padding-left: 1rem;
-    margin-top: 20px;
-    font-weight: 200;
+.vip-customer {
+  margin-top: 20px;
+  font-weight: 200;
 }
 .select-2 {
-    width: 254%;
-    border-radius: 10px;
-    padding: 2px 1rem;
+  width: 254%;
+  border-radius: 10px;
+  padding: 2px 1rem;
 }
-.nation{
-    text-align: center;
-    margin-left: -16rem;
+.nation {
+  text-align: center;
+  margin-left: -16rem;
 }
-.vip{
-margin-right: 0rem;
-
+.vip {
+  margin-right: 0rem;
 }
 .customer-div {
-    display: flex;
+  display: flex;
 }
-.nation_div{
-    padding-right: 20rem;
+.nation_div {
+  padding-right: 20rem;
 }
 .select-3 {
-    width: 175%;
-    padding: 2px 25px;
-    border-radius: 10px;
+  width: 193%;
+  padding: 1px 2rem;
+  border-radius: 10px;
 }
-.btn-2{
-    background-color: black;
-    border-radius: 20px;
-    border: 1px solid #c9c2c2;
-    display: inline-block;
-    color: white;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    margin: 58px 29rem;
-    width: 26%;
-    padding: 13px 10rem;
- }
-
- .foot-1 {
-    width: 100%;
-    background-color: black;
-    height: 50px;
-    margin-top: 13%;
+.btn-2 {
+  background-color: black;
+  border-radius: 20px;
+  border: 1px solid #c9c2c2;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 49px 29rem;
+  width: 26%;
+  padding: 5px 0rem;
 }
 
+.foot-1 {
+  width: 100%;
+  background-color: black;
+  height: 50px;
+  margin-top: 13%;
+}
 
-
-@media(max-width: 1024px){
-    .logo{
-        margin-left: 25%;
-    }
-    .personal-details{
-        margin-left: 29%;
-    }
-    /* .input-1{
+@media (max-width: 1024px) {
+  .logo {
+    margin-left: 25%;
+  }
+  .personal-details {
+    margin-left: 29%;
+  }
+  /* .input-1{
         width: 30%;
     } */
-    .input-2{
-        width: 51%;
-    }
-    .select-1{
-        width: 35%;
-    }
-    .customer-div{
-        margin-left: -105px;
-    }
-    .btn-2{
-        margin-left: 22rem;
-    }
+  .input-2 {
+    width: 51%;
+  }
+  .select-1 {
+    width: 35%;
+  }
+  .customer-div {
+    margin-left: -105px;
+  }
+  .btn-2 {
+    margin-left: 22rem;
+  }
 }
 
-@media(max-width: 768px){
-
-    .gender-label{
-        margin: 20px 0% 0% 0%;
-        width: 100%;
-        float: left;
-    }
-    .language-1{
-        width: 100%;
-        margin-left: -34px;
-        margin-top: 20px;
-        float: left;
-    }
-    .customer-div{
-        display: flex;
-        flex-direction: column;
-    }
-    .nation_div {
-        padding-right: 1rem;
-    }
-    /* .nationality-1{
+@media (max-width: 768px) {
+  .gender-label {
+    margin: 20px 0% 0% 0%;
+    width: 100%;
+    float: left;
+  }
+  .language-1 {
+    width: 100%;
+    margin-left: -34px;
+    margin-top: 20px;
+    float: left;
+  }
+  .customer-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .nation_div {
+    padding-right: 1rem;
+  }
+  /* .nationality-1{
         margin-left: 38%;
     } */
-    .select-2 {
-        width: 96%;
-        border-radius: 10px;
-        padding: 1px 47px;
-    }
-    .vip-customer{
-        margin-left: 305px;
-    }
-    .select-3{
-        width: 45%;
-        margin-left: 38%;
-        padding: 8px 10px;
-    }
-    .btn-2{
-        margin-left: 14rem;
-    }
-    .logo{
-        margin-left: 20%;
-    }
-    .personal-details{
-        margin-left: 26%;
-    }
+  .select-2 {
+    width: 96%;
+    border-radius: 10px;
+    padding: 1px 47px;
+  }
+  .vip-customer {
+    margin-left: 305px;
+  }
+  .select-3 {
+    width: 45%;
+    margin-left: 38%;
+    padding: 8px 10px;
+  }
+  .btn-2 {
+    margin-left: 14rem;
+  }
+  .logo {
+    margin-left: 20%;
+  }
+  .personal-details {
+    margin-left: 26%;
+  }
 }
-@media(max-width: 425px){
-    .btn-1{
-        margin-left: 15px;
-    }
-    .btn-2{
-        margin: 20px 6rem;
-        width: 35%;
-        padding: 10px 13px;
-    }
-    .logo{
-        margin-left: 6%;
-        margin-top: 10px;
-    }
-    .Address-h1{
-        margin-left: 25%;
-    }
-    
-    .input_1{
-        margin-left: 26px;
-        width: 68%;
-    }
-    .input-2{
-        margin-left: 7%;
-        width: 67%;
-    }
-    .name-label{
-        margin-left: 7%;
-    }
-    .gender-div{
-        margin-left: 7%;
-    }
-    .select-1{
-        width: 72%;
-    }
-    .select-2{
-        margin-left: 227px;
-    }
-    .customer-div{
-        margin-left: -195px;
-    }
-    .vip-customer{
-        margin-left: 230px;
-    }
+@media (max-width: 425px) {
+  .btn-1 {
+    margin-left: 15px;
+  }
+  .btn-2 {
+    margin: 20px 6rem;
+    width: 35%;
+    padding: 10px 13px;
+  }
+  .logo {
+    margin-left: 6%;
+    margin-top: 10px;
+  }
+  .Address-h1 {
+    margin-left: 25%;
+  }
+
+  .input_1 {
+    margin-left: 26px;
+    width: 68%;
+  }
+  .input-2 {
+    margin-left: 7%;
+    width: 67%;
+  }
+  .name-label {
+    margin-left: 7%;
+  }
+  .gender-div {
+    margin-left: 7%;
+  }
+  .select-1 {
+    width: 72%;
+  }
+  .select-2 {
+    margin-left: 227px;
+  }
+  .customer-div {
+    margin-left: -195px;
+  }
+  .vip-customer {
+    margin-left: 230px;
+  }
 }

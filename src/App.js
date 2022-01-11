@@ -14,19 +14,19 @@ import Display7 from "./component/Display7/Display7";
 function App() {
   return (
     <Router>
-  <Header/>
+      <Header />
       <Switch>
         <Route exact path="/" component={Display} />
-        <Route exact path="/display" component={Display1} />
-        <Route exact path="/display1" component={Display2} />
-        <Route exact path="/display2" component={Display3} />
-        <Route exact path="/display3" component={Display4} />
-         <Route exact path="/display4" component={Display5} />
-         <Route exect path ="/display5"component={Display6}/>
-        
-        <Route exect path ="/display6"component={Display7}/>
+        <Route exact path="/1" component={Display1} />
+        <Route exact path="/2" component={Display2} />
+        <Route exact path="/3" component={Display3} />
+        <Route exact path="/4" component={Display4} />
+        <Route exact path="/5" component={Display5} />
+        <Route exect path="/6" component={Display6} />
+
+        <Route exect path="/7" component={Display7} />
       </Switch>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }

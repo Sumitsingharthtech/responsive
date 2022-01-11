@@ -45,7 +45,7 @@ function Display5() {
           />
 
           <label> Landphone </label>
-          <select name="phone" className="select-1" placeholder="3333333">
+          <select name="phone" className="select_1" placeholder="3333333">
             <option value="office"> office </option>
             <option value="Personal"> Personal </option>
             <option value="home"> Home </option>
