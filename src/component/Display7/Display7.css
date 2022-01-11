@@ -29,6 +29,7 @@
 }
 
 .personal-details {
+  cursor: pointer;
   margin-left: 32%;
   margin-top: 17px;
 }
@@ -65,13 +66,13 @@
   display: block;
   float: left;
 }
-input[type="radio"] + span {
+/* input[type="radio"] + span {
   display: block;
   border: 1px solid black;
   border-radius: 10px;
   border-left: 0;
   padding: 5px 10px;
-}
+} */
 
 label:first-child input[type="radio"] + span {
   border-left: 1px solid black;
@@ -108,7 +109,7 @@ input[type="radio"]:checked + span {
   font-weight: 200;
 }
 .vip_div {
-  margin-left: -3.8rem;
+  margin-left: -6rem;
 }
 .select-1 {
   width: 34%;
@@ -152,8 +153,7 @@ input[type="radio"]:checked + span {
   padding: 2px 1rem;
 }
 .nation {
-  text-align: center;
-  margin-left: -16rem;
+  padding-left: 19rem;
 }
 .vip {
   margin-right: 0rem;
