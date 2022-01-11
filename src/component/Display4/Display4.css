@@ -128,3 +128,66 @@
     margin-left: 3rem;
   
   }
+
+  @media (max-width:320px){
+
+    .form_div p {
+      font-size: 11px;
+  }
+  .dot_div {
+  
+    display: flex;
+    flex-direction: column;
+}
+.slot_div {
+  
+  padding: 2rem 0rem;
+  flex-direction: column;
+}
+.input_div1 button {
+  background-color: black;
+  border-radius: 20px;
+  border: 1px solid #c9c2c2;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 13px 3rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-left: 0rem;
+}
+.input_div {
+  background-color: white;
+  border-radius: 9px;
+  border: 2px solid #c9c2c2;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  width: 12.5rem;
+  font-style: italic;
+  font-size: 13px;
+  padding: 3px 0rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+.input_div1 {
+  margin-left: 0%;
+  padding: 0 0 19px 0px;
+}
+.radio_div h5 {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.text_div h2 {
+  font-size: 14px;
+}
+.form_div h5 {
+  font-size: 13px;
+}
+.select_div h5{
+  font-size: 12px;
+}
+  }

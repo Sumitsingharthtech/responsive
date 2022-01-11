@@ -12,7 +12,7 @@ function Display7() {
     <div className="btn_back_div" ><Link to="/3" >
   <button className="btn_back">  <BsArrowLeftShort /> Back </button>
   </Link></div>
-  <h4 > <span>home</span>centre </h4>
+  <h4 > <span>Home</span> Center </h4>
 </div>
     <div className="main">
       <h1 className="Address-h1">Add Address Details </h1>
@@ -136,7 +136,7 @@ function Display7() {
         </Link>
         </form>
       </div>
-      <footer className="foot-1"></footer>
+      
     </div></>
   );
 }

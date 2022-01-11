@@ -1,3 +1,9 @@
+*{
+
+    margin: 0;
+    padding:0;
+}
+
 .top{
     float: left;
     width: 100%;
@@ -29,7 +35,8 @@
     padding: 5px 15px;
 }
 .assistance-button1_div{
-    padding-left: 55rem;
+    padding-left: 43rem;
+    margin-left: 11rem;
 
 }
 .about {
@@ -195,4 +202,26 @@ padding-bottom: 10px;
     border-radius: 10px;
    
     box-shadow: white;
+}
+@media  (max-width: 320px) {
+    .assistance-button1_div {
+        padding-left: 23rem;
+        margin-left: 11rem;
+    }
+    .assistance-button1 {
+        float: right;
+        background: linear-gradient(to left,#ed2225, #f47532);
+        color: #fff;
+        width: 192%;
+        font-size: 15px;
+        border-radius: 5px;
+        border: none;
+        padding: 0px 11px;
+    }
+    .black {
+        background-color: black;
+        width: 221%;
+        height: 30px;
+    }
+
 }

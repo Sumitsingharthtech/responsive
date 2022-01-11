@@ -12,7 +12,7 @@ const Display4 = () => {
   <div className="btn_back_div" >  <Link to="/6" >
   <button className="btn_back">  <BsArrowLeftShort /> Back </button>
   </Link></div>
-  <h4 > <span>home</span>centre </h4>
+  <h4 > <span>Home</span>center </h4>
 </div>
     <div className="container">
       <div className="text_div">
@@ -43,7 +43,7 @@ const Display4 = () => {
               <button className="button_Class"> Express Delivery</button>
             </span>
           </div>
-          <div>
+          <div  className="select_div" >
            
             <h5> Select Delivery Slot</h5>
           </div>
