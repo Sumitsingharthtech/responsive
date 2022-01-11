@@ -1,9 +1,18 @@
 import React from 'react'
 import './Display.css';
 import { Link } from "react-router-dom";
+
 const Display = () => {
     return (
         <>
+          <div className="black"> </div>
+
+<div className="icon">
+    
+
+
+  {/* <h4 > <span>home</span>centre </h4> */}
+</div>
           <div className='navbar'>
 
 
