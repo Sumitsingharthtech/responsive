@@ -120,6 +120,7 @@
     margin-left: 22%;
     padding: 6px 0 7px 0px;
 }
+
 .input_div1 button {
   background-color: black;
   border-radius: 20px;
@@ -129,9 +130,9 @@
   color: white;
   font-family: Arial;
   font-size: 13px;
-  padding: 3px 7rem;
+  padding: 5px 5rem 5px  4rem;
   text-decoration: none;
-  margin-top: 2rem;
+  margin-top: 1.8rem;
   margin-left: 3rem;
 }
 

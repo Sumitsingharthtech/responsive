@@ -148,12 +148,12 @@ img {
 .errow{
     float: right;
 }
-.btn_ahead{
+.btn_aheadd{
     text-align: center;
-    padding-bottom: 7px;
+    padding-bottom: 18px;
     
     }
-    .btn_ahead button {
+    .btn_aheadd button {
         border: none;
         background-color: black;
         color: #f5f0f0;
@@ -170,7 +170,7 @@ img {
             background: #f7f7f7;
             /* padding: 5px 20px; */
         }
-        .btn_ahead button {
+        .btn_aheadd button {
             border: none;
             /* padding-bottom: 4px; */
             background-color: black;

@@ -193,13 +193,15 @@ padding-bottom: 4px;
 }
 .btn_ahead{
 text-align: center;
-padding-bottom: 10px;
+padding-bottom: 7px;
 
 }
 .btn_ahead button {
     border: none;
     width: 11%;
     border-radius: 10px;
+    background-color: black;
+    color: white;
    
     box-shadow: white;
 }

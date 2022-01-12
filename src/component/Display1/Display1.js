@@ -75,7 +75,7 @@ const Display1 = () => {
                  
              </div>
              <Link to="/2" >
-             <div className='btn_ahead' > <button>  Next</button>
+             <div className='btn_aheadd' > <button>  Next</button>
              
               </div>
               </Link>
