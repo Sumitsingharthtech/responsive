@@ -35,7 +35,7 @@
     padding: 5px 15px;
 }
 .assistance-button1_div{
-    padding-left: 43rem;
+    padding-left: 42rem;
     margin-left: 11rem;
 
 }
@@ -141,7 +141,7 @@ padding-bottom: 4px;
     box-shadow: 2px 2px 2px 4px #f2f2f2;
 }
 .currency-calculator-div{
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
 }
 .subtotal{
     font-weight: 800;
@@ -175,7 +175,7 @@ padding-bottom: 4px;
     font-size: 11px;
 }
 .card-a {
-    padding: 23px 9px;
+    padding: 7px 9px;
     width: 85%;
     margin: 0 22px;
     border-radius: 10px;
@@ -204,10 +204,7 @@ padding-bottom: 10px;
     box-shadow: white;
 }
 @media  (max-width: 320px) {
-    .assistance-button1_div {
-        padding-left: 23rem;
-        margin-left: 11rem;
-    }
+ 
     .assistance-button1 {
         float: right;
         background: linear-gradient(to left,#ed2225, #f47532);
@@ -226,6 +223,10 @@ padding-bottom: 10px;
     .about {
         float: left;
         /* width: 100%; */
+    }
+    .assistance-button1_div {
+        padding-left: 2rem;
+        /* margin-left: 11rem; */
     }
 
 }
