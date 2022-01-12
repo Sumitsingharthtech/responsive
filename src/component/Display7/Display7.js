@@ -83,7 +83,7 @@ function Display7() {
                     className="hidden"
                     required
                   />
-                  <span>MALE </span>
+                  <span className="span_div" >MALE </span>
                 </label>
                 <label>
                   <input
@@ -94,7 +94,7 @@ function Display7() {
                     className="hidden"
                     required
                   />
-                  <span>FEMALE</span>
+                  <span className="span_div"> FEMALE</span>
                 </label>
               </div>
               <div className="language-1">

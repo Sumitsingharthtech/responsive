@@ -163,6 +163,11 @@ const Display2 = () => {
         <p className="buddy">HC - Global Fesval City</p>
         <p className="qty">100</p>
     </div>
+    <div className="heading">
+        <input className="check" type="radio" />
+        {/* <p className="buddy">HC - Global Fesval City</p>
+        <p className="qty">100</p> */}
+    </div>
     <div className="confirm">
         <button onClick={() => closeHandler()}>CONFIRM</button>
     </div>
