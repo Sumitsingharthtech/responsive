@@ -34,7 +34,7 @@ const Display4 = () => {
         </div>
         <h4>
           {" "}
-          <span>Home</span>center{" "}
+          <span>Home</span>Center{" "}
         </h4>
       </div>
       <div className="container">

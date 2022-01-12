@@ -10,7 +10,7 @@ function Display6() {
   <div className="btn_back_div" >  <Link to="/5" >
   <button className="btn_back">  <BsArrowLeftShort /> Back </button>
   </Link></div>
-  <h4 > <span>Home</span>center </h4>
+  <h4 > <span>Home</span>Center </h4>
 </div>
         <div className='main'>
             

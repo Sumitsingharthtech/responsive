@@ -12,7 +12,7 @@ const Display3 = () => {
    <div className="btn_back_div" > <Link to="/2" >
   <button className="btn_back"  >  <BsArrowLeftShort /> Back </button>
   </Link></div>
-  <h4 > <span>Home</span>center </h4>
+  <h4 > <span>Home</span>Center </h4>
 </div>
     
     <div className="container">
