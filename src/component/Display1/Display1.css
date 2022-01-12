@@ -160,3 +160,22 @@ img {
         width: 11%;
         border-radius: 10px;
     }
+    @media (max-width:320px){
+
+        .box-2 {
+            /* margin-left: 10rem; */
+            /* float: left; */
+            align-items: center;
+            width: 100%;
+            background: #f7f7f7;
+            /* padding: 5px 20px; */
+        }
+        .btn_ahead button {
+            border: none;
+            /* padding-bottom: 4px; */
+            background-color: black;
+            color: #f5f0f0;
+            width: 61%;
+            border-radius: 10px;
+        }
+    }

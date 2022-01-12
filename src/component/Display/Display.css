@@ -223,5 +223,9 @@ padding-bottom: 10px;
         width: 221%;
         height: 30px;
     }
+    .about {
+        float: left;
+        /* width: 100%; */
+    }
 
 }
