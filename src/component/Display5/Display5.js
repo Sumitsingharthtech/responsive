@@ -43,7 +43,7 @@ function Display5() {
             className="input-1"
             placeholder="xxx-xxxx-xxxx"
             required
-            minLength="13"
+            maxLength="13"
           />
 
           <label> Alternate Mobile No. </label>
@@ -52,7 +52,7 @@ function Display5() {
             className="input-1"
             placeholder="xxx-xxxx-xxxx"
             required
-            minLength="13"
+            maxLength="13"
           />
 
           <label> Landphone </label>

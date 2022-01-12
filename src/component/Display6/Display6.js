@@ -30,18 +30,18 @@ function Display6() {
                     <div className='main-div-1'>
                     <div className='div_1'>
                         <label> Address 1* </label> <br />
-                        <input type="text" className='input-11' placeholder='Enter Your Name' required />
+                        <input type="text" className='input-11' placeholder='Enter Your Name' required  maxLength="14" />
                     </div>
                     <div className='div-22'>
                     <label> Address 2* </label> <br />
-                    <input type="text"  className='input-11' placeholder='Enter Your Address' required />
+                    <input type="text"  className='input-11' placeholder='Enter Your Address' required  maxLength="18"/>
                     </div>
                     </div>
 
                     <div className='main-div-2'>
                     <div className='div-1'>
                         <label> Floor No.* </label> <br />
-                        <input type="text"  className='input-11' placeholder='Enter Your Plot Number' required />
+                        <input type="text"  className='input-11' placeholder='Enter Your Plot Number' required  maxLength="18"/>
                     </div>
 
                     <div className='div-22'>

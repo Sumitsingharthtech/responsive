@@ -202,6 +202,7 @@
 }
 .warehouse {
     float: left;
+    height: 47px;
     width: 90%;
     display: flex;
     background: #f7f7f7;

@@ -42,7 +42,7 @@ function Display7() {
               className="input_1"
               placeholder="xxx-xxxx-xxx"
               required
-              min="1" max="12"
+              maxLength="13"
             />{" "}
           </div>
 
@@ -54,6 +54,7 @@ function Display7() {
               className="input-2"
               placeholder="Enter Your Name "
               required
+              minLength="13"
             />{" "}
           </div>
 
