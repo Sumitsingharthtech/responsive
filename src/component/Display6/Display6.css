@@ -38,7 +38,7 @@
 .personal-1 {
   display: flex;
   margin-left: 31%;
-  margin-top: 16px;
+  padding-top: 3px;
 }
 .per-h1 {
   font-size: 17px;
@@ -61,7 +61,7 @@
 }
 .input-11 {
   width: 115%;
-  padding: 5px 10px;
+  padding: 0px 10px;
   border-radius: 10px;
 }
 #select-1 {
@@ -123,7 +123,7 @@
 .nearest-1 {
   margin-left: 81px;
   width: 85%;
-  padding: 5px 6px;
+  padding: 1px 6px;
   border-radius: 10px;
 }
 
@@ -143,8 +143,8 @@ button.last-btn {
   border-radius: 19px;
   margin-left: 32%;
 }
-.btn_bootom_div{
-  padding-bottom: 10px;
+.btn_bootom_div {
+  padding-bottom: 6px;
 }
 
 

@@ -56,8 +56,8 @@ select {
 .input_end {
   padding-top: 5rem;
   text-align: center;
-
   padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 
 @media (max-width: 320px) {

@@ -126,10 +126,10 @@ img {
 .box-2 {
     /* margin-left: 10rem; */
     /* float: left; */
-  align-items: center;
+    align-items: center;
     width: 27%;
     background: #f7f7f7;
-    padding:5px 20px;
+    padding: 0px 20px;
 }
 .box-2 h5{
     border:1px solid #000;
@@ -150,7 +150,7 @@ img {
 }
 .btn_ahead{
     text-align: center;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
     
     }
     .btn_ahead button {
