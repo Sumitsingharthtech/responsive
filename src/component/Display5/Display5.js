@@ -15,7 +15,7 @@ function Display5() {
 </div>
     <div className="main">
       
-      <hr />
+     
       <h1 className="Address-h1">Add Address Details </h1>
 
       <div className="container">
