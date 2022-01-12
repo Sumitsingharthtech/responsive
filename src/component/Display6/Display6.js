@@ -30,18 +30,18 @@ function Display6() {
                     <div className='main-div-1'>
                     <div className='div_1'>
                         <label> Address 1* </label> <br />
-                        <input type="text" className='input-11' placeholder='Jabel Ali' required />
+                        <input type="text" className='input-11' placeholder='Enter Your Name' required />
                     </div>
                     <div className='div-22'>
                     <label> Address 2* </label> <br />
-                    <input type="text"  className='input-11' placeholder='Street 2' required />
+                    <input type="text"  className='input-11' placeholder='Enter Your Address' required />
                     </div>
                     </div>
 
                     <div className='main-div-2'>
                     <div className='div-1'>
                         <label> Floor No.* </label> <br />
-                        <input type="text"  className='input-11' placeholder='22' required />
+                        <input type="text"  className='input-11' placeholder='Enter Your Plot Number' required />
                     </div>
 
                     <div className='div-22'>
@@ -126,15 +126,14 @@ function Display6() {
                         </select>
                     </div>
                     </div>
-<Link to="/7">
+<div  className='btn_bootom_div' ><Link to="/7">
                     <button className='last-btn'> ADD  ADDRESS </button>
-                    </Link>
+                    </Link></div>
                     </div>
                    
                 </form>
             </div>
-            <footer className='foot-1'>
-            </footer>
+            
         </div></>
     )
 }

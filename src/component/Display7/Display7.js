@@ -40,8 +40,9 @@ function Display7() {
             <input
               type="phone"
               className="input_1"
-              placeholder="456543124"
+              placeholder="xxx-xxxx-xxx"
               required
+              min="1" max="12"
             />{" "}
           </div>
 
@@ -51,7 +52,7 @@ function Display7() {
             <input
               type="text"
               className="input-2"
-              placeholder="Mohammad Waseem "
+              placeholder="Enter Your Name "
               required
             />{" "}
           </div>
@@ -132,7 +133,7 @@ function Display7() {
             </div>
           </div>
           <Link to="/5" >
-          <button className="btn-2"> Next </button>
+          <button className="btn-2222"> Next </button>
         </Link>
         </form>
       </div>

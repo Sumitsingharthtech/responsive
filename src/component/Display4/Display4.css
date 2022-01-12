@@ -78,6 +78,13 @@
    color: rgb(112, 167, 240);
   
   } 
+  .form_div label{
+
+   
+    margin-bottom: 1px;
+
+
+  } 
   
   .Arrow{
   margin-top: 7px;
@@ -85,7 +92,7 @@
   
   }
   
-  .input_div  {
+  .input_div {
     background-color: white;
     border-radius: 9px;
     border: 2px solid #c9c2c2;
@@ -96,10 +103,10 @@
     width: 26.5rem;
     font-style: italic;
     font-size: 13px;
-    padding: 13px 1rem;
+    padding: 6px 1rem;
     text-decoration: none;
     margin-top: 1rem;
-  }
+}
   
   .input_div:active {
       position:relative;
@@ -110,24 +117,23 @@
   
   }
   .input_div1 {
-    margin-left: 7%;
-    padding: 0 0 20px 0;
+    margin-left: 17%;
+    padding: 0 0 8px 0px;
 }
-  .input_div1 button{
-    background-color: black;
-    border-radius:20px;
-    border: 1px solid #c9c2c2;
-    display:inline-block;
-    cursor:pointer;
-    color: white;
-    font-family:Arial;
-    font-size:13px;
-    padding:13px 10rem;
-    text-decoration:none;
-    margin-top: 2rem;
-    margin-left: 3rem;
-  
-  }
+.input_div1 button {
+  background-color: black;
+  border-radius: 20px;
+  border: 1px solid #c9c2c2;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 7px 7rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
 
   @media (max-width:320px){
 

@@ -26,10 +26,9 @@
   padding-left: 30px;
 }
 .form_div {
-  padding-top: 2rem;
+  padding-top: 3px;
   text-align: center;
-  /* width: 50%; */
-  /* margin: 0 auto; */
+  
 }
 .input_next {
   background-color: #000;

@@ -41,20 +41,22 @@ function Display5() {
           <input
             type="phone"
             className="input-1"
-            placeholder="1111111111"
+            placeholder="xxx-xxxx-xxxx"
             required
+            minLength="13"
           />
 
           <label> Alternate Mobile No. </label>
           <input
             type="phone"
             className="input-1"
-            placeholder="2222222222"
+            placeholder="xxx-xxxx-xxxx"
             required
+            minLength="13"
           />
 
           <label> Landphone </label>
-          <select name="phone" className="select_1" placeholder="3333333">
+          <select name="phone" className="select_1" placeholder="3333333"  >
             <option value="office"> office </option>
             <option value="Personal"> Personal </option>
             <option value="home"> Home </option>

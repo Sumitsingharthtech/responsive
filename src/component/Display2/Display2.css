@@ -190,7 +190,7 @@
 .radio {
     width: 7%;
     float: left;
-    margin: 21px 0;
+    margin: 11px 0;
 }
 .radio input {
     width: 30px;
@@ -233,9 +233,9 @@
     background: #000;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 1px 20px;
     border-radius: 10px;
-    margin: 2px 6%;
+    margin: 0px 6%;
 }
 .errow {
     float: right;
@@ -257,9 +257,9 @@
     background: #000;
     color: #fff;
     border: none;
-    padding: 10px 40%;
+    padding: 3px 40%;
     border-radius: 20px;
-    margin: 13% 6%;
+    margin: 6% 6%;
 }
 @media screen and (max-width: 320px) {
     .inventory-box h3 {

@@ -79,18 +79,16 @@ label {
   background-color: black;
   border-radius: 20px;
   border: 1px solid #c9c2c2;
-
   color: white;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-
-  width: 25%;
-  padding: 6px 4rem;
+  width: 21%;
+  padding: 6px 6rem;
 }
 .input_btn2 {
-  margin-top: 4rem;
-  padding-right: 12rem;
+  margin: 16px;
+  padding-left: 56px;
 }
 .foot-1 {
   width: 100%;
