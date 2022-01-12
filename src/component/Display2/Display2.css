@@ -234,7 +234,7 @@
     background: #000;
     color: #fff;
     border: none;
-    padding: 1px 20px;
+    padding: 1px 8px;
     border-radius: 10px;
     margin: 0px 6%;
 }
@@ -376,7 +376,7 @@
 .confirm {
     width: 28%;
     margin: 0 auto;
-    padding-bottom: 15px;
+    padding-bottom: 36px;
 }
 .confirm button {
     border: 1px solid #fff;

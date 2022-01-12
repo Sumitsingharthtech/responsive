@@ -172,7 +172,7 @@ input[type="radio"]:checked + span {
 }
 .select-3 {
   width: 188%;
-  padding: 1px 2rem;
+  padding: 1px 1.9rem;
   border-radius: 10px;
 }
 .btn-2222 {
@@ -184,7 +184,7 @@ input[type="radio"]:checked + span {
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  margin: 24px 29rem;
+  margin: 44px 29rem;
   width: 21%;
   padding: 7px 0;
 }

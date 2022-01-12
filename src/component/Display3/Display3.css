@@ -54,9 +54,9 @@ select {
   padding-bottom: 6px;
 }
 .input_end {
-  padding-top: 5rem;
+  padding-top: 94px;
   text-align: center;
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
   padding-bottom: 4rem;
 }
 

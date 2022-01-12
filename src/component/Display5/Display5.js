@@ -39,7 +39,7 @@ function Display5() {
         <form className="form-1">
           <label> Mobile No. </label>
           <input
-            type="phone"
+            type="text"
             className="input-1"
             placeholder="xxx-xxxx-xxxx"
             required
@@ -48,7 +48,7 @@ function Display5() {
 
           <label> Alternate Mobile No. </label>
           <input
-            type="phone"
+            type="text"
             className="input-1"
             placeholder="xxx-xxxx-xxxx"
             required
