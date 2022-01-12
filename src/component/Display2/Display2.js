@@ -41,7 +41,7 @@ const Display2 = () => {
           <h6 className="caslla">Caslla 180X210 Bed Set W/Wdrb</h6>
           <div className="box">
             <div className="radio">
-              <input type="radio" onClick={() => showHandler()}/>
+              <input type="radio" name="radio1" id="check1" onClick={() => showHandler()}/>
             </div>
             <div className="warehouse">
               <h4 className="were">Warehouse</h4>
@@ -53,7 +53,7 @@ const Display2 = () => {
           </div>
           <div className="box">
             <div className="radio">
-              <input type="radio" />
+              <input type="radio" name="radio1" id="check2" />
             </div>
             <div className="warehouse">
               <h4 className="were">Selling Store</h4>
@@ -70,7 +70,7 @@ const Display2 = () => {
           <h6 className="grandeur">Grandeur Drssr W/Mirr-Wge</h6>
           <div className="box">
             <div className="radio">
-              <input type="radio" />
+              <input type="radio" name="radio1" id="check3" />
             </div>
             <div className="warehouse">
               <h4 className="were">Warehouse</h4>
@@ -82,7 +82,7 @@ const Display2 = () => {
           </div>
           <div className="box">
             <div className="radio">
-              <input type="radio" />
+              <input type="radio" name="radio1" id="check4" />
             </div>
             <div className="warehouse">
               <h4 className="were">Selling Store</h4>
