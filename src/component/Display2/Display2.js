@@ -23,7 +23,7 @@ const Display2 = () => {
       <div className="icon">
         <div className="btn_back_div">
           {" "}
-          <Link to="/">
+          <Link to="/1">
             <button className="btn_back">
               {" "}
               <BsArrowLeftShort /> Back{" "}
