@@ -6,8 +6,8 @@
     right: 0;
     top: 0;
 }
-.heading{
-    padding-left: 10px;
+.heading {
+    padding-left: 2px;
     color: #fff;
 }
 .head{
@@ -31,10 +31,10 @@
     float: left;
     width: 20%;
 }
-.confirm{
-    width: 30%;
+.confirm {
+    width: 28%;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .confirm button{
     border: 2px solid #fff;

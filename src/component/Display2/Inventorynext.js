@@ -10,7 +10,7 @@ const Inventorynext = () => {
                         <p className='head-a'>Qty</p>
                         </div> 
                         <div className='heading'>
-                            <input className='check' type='radio'/>
+                            {/* <input className='check' type='radio'/> */}
                         <p className='buddy'>HC - Global Fesval City</p>
                         <p className='qty'>100</p>
                         </div> 
@@ -65,7 +65,7 @@ const Inventorynext = () => {
                         <p className='qty'>100</p>
                         </div>
                         <div className='confirm'>
-                        <button>CONFIRM</button>
+                        <button onClick={()=>window.close()} >CONFIRM</button>
                         </div>
                         
                         </div> 
